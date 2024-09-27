@@ -23,10 +23,9 @@ const voice = new AoiVoice(client, {
         soundcloudLikeTrackLimit: 200,
     },
     searchOptions: {
-        youtubeClient: "WEB",
         spotifyAuth: {
             clientId: process.env.spotifyID,
-            clientSecret: process.env.spotifySecret
+            clientSecret: process.env.spotifySecret 
         }
     }
 });
